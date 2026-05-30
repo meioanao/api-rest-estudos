@@ -1,0 +1,136 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mathe\\OneDrive\\Documentos\\api-rest-estudos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1337DCF4-D716-4931-84AE-077964575CD9}|ApiRestEstudos.Api\\ApiRestEstudos.Api.csproj|c:\\users\\mathe\\onedrive\\documentos\\api-rest-estudos\\apirestestudos.api\\apirestestudos.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{1337DCF4-D716-4931-84AE-077964575CD9}|ApiRestEstudos.Api\\ApiRestEstudos.Api.csproj|solutionrelative:apirestestudos.api\\apirestestudos.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1337DCF4-D716-4931-84AE-077964575CD9}|ApiRestEstudos.Api\\ApiRestEstudos.Api.csproj|c:\\users\\mathe\\onedrive\\documentos\\api-rest-estudos\\apirestestudos.api\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1337DCF4-D716-4931-84AE-077964575CD9}|ApiRestEstudos.Api\\ApiRestEstudos.Api.csproj|solutionrelative:apirestestudos.api\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1337DCF4-D716-4931-84AE-077964575CD9}|ApiRestEstudos.Api\\ApiRestEstudos.Api.csproj|c:\\users\\mathe\\onedrive\\documentos\\api-rest-estudos\\apirestestudos.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1337DCF4-D716-4931-84AE-077964575CD9}|ApiRestEstudos.Api\\ApiRestEstudos.Api.csproj|solutionrelative:apirestestudos.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1337DCF4-D716-4931-84AE-077964575CD9}|ApiRestEstudos.Api\\ApiRestEstudos.Api.csproj|c:\\users\\mathe\\onedrive\\documentos\\api-rest-estudos\\apirestestudos.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1337DCF4-D716-4931-84AE-077964575CD9}|ApiRestEstudos.Api\\ApiRestEstudos.Api.csproj|solutionrelative:apirestestudos.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1337DCF4-D716-4931-84AE-077964575CD9}|ApiRestEstudos.Api\\ApiRestEstudos.Api.csproj|c:\\users\\mathe\\onedrive\\documentos\\api-rest-estudos\\apirestestudos.api\\models\\updatelocationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1337DCF4-D716-4931-84AE-077964575CD9}|ApiRestEstudos.Api\\ApiRestEstudos.Api.csproj|solutionrelative:apirestestudos.api\\models\\updatelocationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1337DCF4-D716-4931-84AE-077964575CD9}|ApiRestEstudos.Api\\ApiRestEstudos.Api.csproj|c:\\users\\mathe\\onedrive\\documentos\\api-rest-estudos\\apirestestudos.api\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1337DCF4-D716-4931-84AE-077964575CD9}|ApiRestEstudos.Api\\ApiRestEstudos.Api.csproj|solutionrelative:apirestestudos.api\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1337DCF4-D716-4931-84AE-077964575CD9}|ApiRestEstudos.Api\\ApiRestEstudos.Api.csproj|c:\\users\\mathe\\onedrive\\documentos\\api-rest-estudos\\apirestestudos.api\\dtos\\createlocationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1337DCF4-D716-4931-84AE-077964575CD9}|ApiRestEstudos.Api\\ApiRestEstudos.Api.csproj|solutionrelative:apirestestudos.api\\dtos\\createlocationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\OneDrive\\Documentos\\api-rest-estudos\\ApiRestEstudos.api\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ApiRestEstudos.api\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\mathe\\OneDrive\\Documentos\\api-rest-estudos\\ApiRestEstudos.api\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "ApiRestEstudos.api\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T22:41:04.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateLocationDto.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\OneDrive\\Documentos\\api-rest-estudos\\ApiRestEstudos.api\\Models\\UpdateLocationDto.cs",
+              "RelativeDocumentMoniker": "ApiRestEstudos.api\\Models\\UpdateLocationDto.cs",
+              "ToolTip": "C:\\Users\\mathe\\OneDrive\\Documentos\\api-rest-estudos\\ApiRestEstudos.api\\Models\\UpdateLocationDto.cs",
+              "RelativeToolTip": "ApiRestEstudos.api\\Models\\UpdateLocationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T17:17:08.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApiRestEstudos.api.http",
+              "DocumentMoniker": "C:\\Users\\mathe\\OneDrive\\Documentos\\api-rest-estudos\\ApiRestEstudos.api\\ApiRestEstudos.api.http",
+              "RelativeDocumentMoniker": "ApiRestEstudos.api\\ApiRestEstudos.api.http",
+              "ToolTip": "C:\\Users\\mathe\\OneDrive\\Documentos\\api-rest-estudos\\ApiRestEstudos.api\\ApiRestEstudos.api.http",
+              "RelativeToolTip": "ApiRestEstudos.api\\ApiRestEstudos.api.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-05-30T16:54:50.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateLocationDto.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\OneDrive\\Documentos\\api-rest-estudos\\ApiRestEstudos.api\\Dtos\\CreateLocationDto.cs",
+              "RelativeDocumentMoniker": "ApiRestEstudos.api\\Dtos\\CreateLocationDto.cs",
+              "ToolTip": "C:\\Users\\mathe\\OneDrive\\Documentos\\api-rest-estudos\\ApiRestEstudos.api\\Dtos\\CreateLocationDto.cs",
+              "RelativeToolTip": "ApiRestEstudos.api\\Dtos\\CreateLocationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T16:13:25.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LocationsController.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\OneDrive\\Documentos\\api-rest-estudos\\ApiRestEstudos.api\\Controllers\\LocationsController.cs",
+              "RelativeDocumentMoniker": "ApiRestEstudos.api\\Controllers\\LocationsController.cs",
+              "ToolTip": "C:\\Users\\mathe\\OneDrive\\Documentos\\api-rest-estudos\\ApiRestEstudos.api\\Controllers\\LocationsController.cs",
+              "RelativeToolTip": "ApiRestEstudos.api\\Controllers\\LocationsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T16:04:00.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Location.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\OneDrive\\Documentos\\api-rest-estudos\\ApiRestEstudos.api\\Models\\Location.cs",
+              "RelativeDocumentMoniker": "ApiRestEstudos.api\\Models\\Location.cs",
+              "ToolTip": "C:\\Users\\mathe\\OneDrive\\Documentos\\api-rest-estudos\\ApiRestEstudos.api\\Models\\Location.cs",
+              "RelativeToolTip": "ApiRestEstudos.api\\Models\\Location.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T16:03:19.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\OneDrive\\Documentos\\api-rest-estudos\\ApiRestEstudos.api\\Program.cs",
+              "RelativeDocumentMoniker": "ApiRestEstudos.api\\Program.cs",
+              "ToolTip": "C:\\Users\\mathe\\OneDrive\\Documentos\\api-rest-estudos\\ApiRestEstudos.api\\Program.cs",
+              "RelativeToolTip": "ApiRestEstudos.api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T15:58:36.499Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

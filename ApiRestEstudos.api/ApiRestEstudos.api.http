@@ -1,6 +1,42 @@
 @ApiRestEstudos.api_HostAddress = http://localhost:5210
 
-GET {{ApiRestEstudos.api_HostAddress}}/weatherforecast/
+### Criar location (POST)
+POST {{ApiRestEstudos.api_HostAddress}}/locations
+Content-Type: application/json
+
+{
+  "nome": "Copacabana",
+  "categoria": "Turismo",
+  "latitude": -22.9711,
+  "longitude": -43.1822
+}
+
+###
+
+### Listar locations (GET)
+GET {{ApiRestEstudos.api_HostAddress}}/locations
 Accept: application/json
 
 ###
+
+### Atualizar location (PUT)
+PUT {{ApiRestEstudos.api_HostAddress}}/locations/2
+Content-Type: application/json
+
+{
+  "nome": "Praça Central Atualizada",
+  "categoria": "Lazer Premium",
+  "latitude": -22.9068,
+  "longitude": -43.1729
+}
+
+###
+
+### Deletar location (DELETE)
+DELETE {{ApiRestEstudos.api_HostAddress}}/locations/2
+
+###
+
+### Listar novamente (GET)
+GET {{ApiRestEstudos.api_HostAddress}}/locations
+Accept: application/json
