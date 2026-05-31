@@ -123,4 +123,3 @@ C:\Users\mathe\OneDrive\Documentos\api-rest-estudos\ApiRestEstudos.Api\obj\Debug
 C:\Users\mathe\OneDrive\Documentos\api-rest-estudos\ApiRestEstudos.Api\obj\Debug\net9.0\ApiRestEstudos.Api.genruntimeconfig.cache
 C:\Users\mathe\OneDrive\Documentos\api-rest-estudos\ApiRestEstudos.Api\obj\Debug\net9.0\ref\ApiRestEstudos.Api.dll
 C:\Users\mathe\OneDrive\Documentos\api-rest-estudos\ApiRestEstudos.api\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.InMemory.dll
-C:\Users\mathe\OneDrive\Documentos\api-rest-estudos\ApiRestEstudos.Api\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

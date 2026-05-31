@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x7RMPHPzw4s=",
+  "dgSpecHash": "Z5QZGZ2oO88=",
   "success": true,
-  "projectFilePath": "C:\\Users\\mathe\\OneDrive\\Documentos\\api-rest-estudos\\ApiRestEstudos.Api\\ApiRestEstudos.Api.csproj",
+  "projectFilePath": "C:\\Users\\mathe\\OneDrive\\Documentos\\api-rest-estudos\\ApiRestEstudos.api\\ApiRestEstudos.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mathe\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.14\\microsoft.aspnetcore.openapi.9.0.14.nupkg.sha512",

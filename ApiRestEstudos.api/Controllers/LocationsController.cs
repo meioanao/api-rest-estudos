@@ -2,7 +2,6 @@
 using ApiRestEstudos.Api.Models;
 using ApiRestEstudos.Api.Dtos;
 using ApiRestEstudos.Api.Data;
-using Microsoft.EntityFrameworkCore;
 
 namespace ApiRestEstudos.Api.Controllers;
 
@@ -10,19 +9,53 @@ namespace ApiRestEstudos.Api.Controllers;
 [Route("[controller]")]
 public class LocationsController : ControllerBase
 {
-
     private readonly AppDbContext _context;
 
     public LocationsController(AppDbContext context)
     {
         _context = context;
     }
-    [HttpGet]
-    public ActionResult<IEnumerable<Location>> Get()
-    {
 
-        return Ok(_context.Locations.ToList());
+    [HttpGet]
+    public ActionResult<IEnumerable<Location>> Get(
+        [FromQuery] string? nome,
+        [FromQuery] string? categoria,
+        [FromQuery] int page = 1,
+        [FromQuery] int pageSize = 10)
+    {
+        var query = _context.Locations.AsQueryable();
+
+        if (!string.IsNullOrWhiteSpace(nome))
+            query = query.Where(x => x.Nome.Contains(nome));
+
+        if (!string.IsNullOrWhiteSpace(categoria))
+            query = query.Where(x => x.Categoria.Contains(categoria));
+
+        var result = query
+            .Skip((page - 1) * pageSize)
+            .Take(pageSize)
+            .ToList();
+
+        return Ok(result);
     }
+
+    [HttpPost]
+    public ActionResult<Location> Create([FromBody] CreateLocationDto dto)
+    {
+        var location = new Location
+        {
+            Nome = dto.Nome,
+            Categoria = dto.Categoria,
+            Latitude = dto.Latitude,
+            Longitude = dto.Longitude
+        };
+
+        _context.Locations.Add(location);
+        _context.SaveChanges();
+
+        return CreatedAtAction(nameof(Get), new { id = location.Id }, location);
+    }
+
     [HttpPut("{id}")]
     public ActionResult Update(int id, [FromBody] UpdateLocationDto dto)
     {
@@ -40,6 +73,7 @@ public class LocationsController : ControllerBase
 
         return NoContent();
     }
+
     [HttpDelete("{id}")]
     public ActionResult Delete(int id)
     {
@@ -52,21 +86,5 @@ public class LocationsController : ControllerBase
         _context.SaveChanges();
 
         return NoContent();
-    }
-    [HttpPost]
-    public ActionResult<Location> Create(CreateLocationDto dto)
-    {
-        var location = new Location
-        {
-            Nome = dto.Nome,
-            Categoria = dto.Categoria,
-            Latitude = dto.Latitude,
-            Longitude = dto.Longitude
-        };
-
-        _context.Locations.Add(location);
-        _context.SaveChanges();
-
-        return Ok(location);
     }
 }
